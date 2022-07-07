@@ -4,13 +4,13 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-unsigned int cpu_read_byte(int addr);
-unsigned int cpu_read_word(int addr);
-unsigned int cpu_read_long(int addr);
+unsigned int cpu_read_byte(unsigned int addr);
+unsigned int cpu_read_word(unsigned int addr);
+unsigned int cpu_read_long(unsigned int addr);
 
-void cpu_write_byte(int addr, int value);
-void cpu_write_word(int addr, int value);
-void cpu_write_long(int addr, int value);
+void cpu_write_byte(unsigned int addr, unsigned int value);
+void cpu_write_word(unsigned int addr, unsigned int value);
+void cpu_write_long(unsigned int addr, unsigned int value);
 
 #ifdef __cplusplus
 }

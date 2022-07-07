@@ -30,3 +30,4 @@
 #cfunc m68k_is_valid_instruction "m68k_is_valid_instruction" int,int
 #cfunc m68k_disassemble "m68k_disassemble" int,int,int
 #cfunc m68k_disassemble_raw "m68k_disassemble_raw" int,int,int,int,int
+#func m68k_setmemaccess "setmemaccess" int,int
